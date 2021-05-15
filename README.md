@@ -1,5 +1,7 @@
 # node-zpaq
 
+[![Build Status](https://www.travis-ci.com/PRTTMPRPHT/node-zpaq.svg?branch=master)]()
+
 Node bindings for the compression and decompression functions of libzpaq, written by Matt Mahoney (http://mattmahoney.net/dc/zpaq.html).
 
 ## Usage
