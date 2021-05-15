@@ -1,0 +1,3 @@
+[submodule "native/zpaq"]
+	path = native/zpaq
+	url = https://github.com/zpaq/zpaq

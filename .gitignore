@@ -1,0 +1,7 @@
+/.vs
+/.idea
+/dist
+/build
+/coverage
+
+node_modules

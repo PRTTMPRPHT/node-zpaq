@@ -1,0 +1,48 @@
+{
+  "name": "node-zpaq",
+  "version": "1.0.0",
+  "description": "Node bindings for libzpaq.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "@PRTTMPRPHT",
+  "keywords": [
+    "compression",
+    "decompression",
+    "zpaq",
+    "paq",
+    "archive"
+  ],
+  "files": [
+    "/dist",
+    "/native",
+    "/binding.gyp",
+    "README.md",
+    "/LICENSE"
+  ],
+  "homepage": "https://github.com/PRTTMPRPHT/node-zpaq",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PRTTMPRPHT/node-zpaq.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --colors --collect-coverage",
+    "lint": "eslint src/**/*.ts"
+  },
+  "license": "The Unlicense",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4"
+  }
+}
