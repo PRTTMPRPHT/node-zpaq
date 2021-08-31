@@ -2,6 +2,7 @@
 
 #include <stdexcept>
 #include <cstring>
+#include <new>
 
 namespace libzpaq {
 	void error(const char* msg) {
